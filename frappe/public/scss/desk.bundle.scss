@@ -23,7 +23,7 @@
 
 .standard-sidebar-item {
     border-radius: 0!important;
-    color: #fff !important;
+    color: #fff!important;
     background-color: rgb(215 227 247/var(--tw-bg-opacity, 1))!important;
     margin: 0!important
 }
@@ -35,16 +35,22 @@
 .standard-sidebar-item.active-sidebar,.search-dialog .search-results .search-sidebar .standard-sidebar-item.selected {
     background-color: rgb(0 75 203/var(--tw-bg-opacity, 1))!important;
     border-radius: 0!important;
-    color: #fff !important
+    color: #fff!important
 }
 
 .active-sidebar .sidebar-item-label {
-    color: #fff !important
+    color: #fff!important
 }
 
 .standard-sidebar-item,.active-sidebar .icon,.active-sidebar .es-icon {
-    fill: #fff !important;
-    --stroke: #fff !important
+    /* fill:#fff!important; */
+    stroke: #fff !important;
+}
+
+.body-sidebar .standard-sidebar-item .item-anchor .sidebar-item-icon {
+    padding: 6px;
+    width: 40px;
+    height: 40px;
 }
 
 .standard-sidebar-label {
@@ -71,7 +77,7 @@
 
 .body-sidebar {
     padding: 0!important;
-    width: 30px
+    width: 40px;
 }
 
 .standard-sidebar-item .icon,.standard-sidebar-item .es-icon {
@@ -79,6 +85,7 @@
 }
 
 .body-sidebar .standard-sidebar-section .sidebar-item-container {
+    width: 40px;
     margin-bottom: 0!important
 }
 
@@ -86,33 +93,38 @@
     margin: auto!important
 }
 
-/* When collapsed (rotate 90 degrees) — swap dimensions */
 .body-sidebar-container.expanded .app-switcher-dropdown {
-  content: url(https://ccc-stg.cts-solutions-it.com/cts-nordics-logo.svg);
-  overflow: hidden;
-  width: 40px;
-  height: 40px;
+    content: url(https://ccc-stg.cts-solutions-it.com/cts-nordics-logo.svg);
+    overflow: hidden;
+    width: 40px;
+    height: 40px
 }
 
-.body-sidebar-container .app-switcher-dropdown::before {
-  content: url(https://ccc-stg.cts-solutions-it.com/cts-nordics-logo.svg);
-  display: block;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  overflow:hidden;
-  transform: scale(0.7);
-  transform-origin: left;
-  border: 0px !important;
-  margin-top:10px;
-  margin-left: 2px;
+.body-sidebar-container .app-switcher-dropdown:before {
+    content: url(https://ccc-stg.cts-solutions-it.com/cts-nordics-logo.svg);
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transform: scale(.7);
+    transform-origin: left;
+    border: 0px!important;
+    margin-top: 10px;
+    margin-left: 8px;
 }
 
-.sidebar-item-icon.app-logo-container{
-    display:none;
+.sidebar-item-icon.app-logo-container {
+    display: none
 }
-.app-switcher-dropdown .standard-sidebar-item{
-         display:none !important;
- }
+
+.app-switcher-dropdown .standard-sidebar-item {
+    display: none!important
+}
+
+.body-sidebar .standard-sidebar-item .item-anchor .sidebar-item-icon svg {
+    width: 25px;
+    height: 25px;
+}
