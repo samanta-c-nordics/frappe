@@ -14,32 +14,32 @@
 /*----------------------CTS -  NORDICS CHANGES----------------------------------*/
 /*------------------------------------------------------------------------------*/
 .container-xl,.container-lg,.container-md,.container-sm,.container {
-    max-width: 100%!important
+    max-width: 100% !important;
 }
 
 .sidebar-item-label {
-    padding: 15px 0!important
+    padding: 15px 0 !important;
 }
 
 .standard-sidebar-item {
-    border-radius: 0!important;
-    color: #fff!important;
-    background-color: rgb(215 227 247/var(--tw-bg-opacity, 1))!important;
-    margin: 0!important
+    border-radius: 0 !important;
+    color: #fff !important;
+    background-color: rgb(215 227 247/var(--tw-bg-opacity, 1)) !important;
+    margin: 0 !important;
 }
 
 .desk-sidebar-item .standard-sidebar-item .active-sidebar {
-    background-color: rgb(0 75 203/var(--tw-bg-opacity, 1))!important
+    background-color: rgb(0 75 203/var(--tw-bg-opacity, 1)) !important;
 }
 
 .standard-sidebar-item.active-sidebar,.search-dialog .search-results .search-sidebar .standard-sidebar-item.selected {
-    background-color: rgb(0 75 203/var(--tw-bg-opacity, 1))!important;
-    border-radius: 0!important;
-    color: #fff!important
+    background-color: rgb(0 75 203/var(--tw-bg-opacity, 1)) !important;
+    border-radius: 0 !important;
+    color: #fff !important;
 }
 
 .active-sidebar .sidebar-item-label {
-    color: #fff!important
+    color: #fff !important;
 }
 
 .standard-sidebar-item,.active-sidebar .icon,.active-sidebar .es-icon {
@@ -48,83 +48,87 @@
 }
 
 .body-sidebar .standard-sidebar-item .item-anchor .sidebar-item-icon {
-    padding: 6px;
-    width: 40px;
-    height: 40px;
+    padding: 6px !important;
+    width: 40px !important;
+    height: 40px !important;
 }
 
 .standard-sidebar-label {
-    display: none!important
+    display: none !important;
 }
 
 .sidebar-toggle-btn .es-icon {
-    fill: var(--icon-stroke)!important;
-    --stroke: #fff !important
+    fill: var(--icon-stroke) !important;
+    --stroke: #fff !important;
 }
 
 .layout-main {
-    height: calc(100vh - var(--navbar-height) - var(--page-head-height) - 5px + 60px)!important
+    height: calc(100vh - var(--navbar-height) - var(--page-head-height) - 5px + 60px) !important;
 }
 
 .navbar {
-    background-color: #fff!important;
-    height: 83px!important
+    background-color: #fff !important;
+    height: 83px !important;
 }
 
 .layout-main-section {
-    padding: 15px 10px 10px!important
+    padding: 15px 10px 10px !important;
 }
 
 .body-sidebar {
-    padding: 0!important;
+    padding: 0 !important;
     width: 40px;
 }
 
 .standard-sidebar-item .icon,.standard-sidebar-item .es-icon {
-    margin-top: 0!important
+    margin-top: 0 !important;
 }
 
 .body-sidebar .standard-sidebar-section .sidebar-item-container {
     width: 40px;
-    margin-bottom: 0!important
+    margin-bottom: 0 !important;
 }
 
 .layout-main {
-    margin: auto!important
+    margin: auto !important;
 }
 
 .body-sidebar-container.expanded .app-switcher-dropdown {
-    content: url(https://ccc-stg.cts-solutions-it.com/cts-nordics-logo.svg);
-    overflow: hidden;
-    width: 40px;
-    height: 40px
+    content: url(https://ccc-stg.cts-solutions-it.com/cts-nordics-logo.svg) !important;
+    overflow: hidden !important;
+    width: 40px !important;
+    height: 40px !important;
 }
 
 .body-sidebar-container .app-switcher-dropdown:before {
-    content: url(https://ccc-stg.cts-solutions-it.com/cts-nordics-logo.svg);
-    display: block;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    transform: scale(.7);
-    transform-origin: left;
+    content: url(https://ccc-stg.cts-solutions-it.com/cts-nordics-logo.svg) !important;
+    display: block !important;
+    width: 50px !important;
+    height: 50px !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    overflow: hidden !important;
+    transform: scale(.7) !important;
+    transform-origin: left !important;
     border: 0px!important;
-    margin-top: 10px;
-    margin-left: 8px;
+    margin-top: 10px !important;
+    margin-left: 8px !important;
 }
 
 .sidebar-item-icon.app-logo-container {
-    display: none
+    display: none !important;
 }
 
 .app-switcher-dropdown .standard-sidebar-item {
-    display: none!important
+    display: none !important
 }
 
 .body-sidebar .standard-sidebar-item .item-anchor .sidebar-item-icon svg {
-    width: 25px;
-    height: 25px;
+    width: 25px !important;
+    height: 25px !important;
+}
+.body-sidebar-top{
+	width: 40px !important;
+	
 }
